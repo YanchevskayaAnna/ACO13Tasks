@@ -15,6 +15,7 @@ public class ColorPoint extends Point {
 
         ColorPoint cp = (ColorPoint) o;
 
-        return super.equals(o) && cp.color.equals(color);
+//        return super.equals(o) && cp.color.equals(color);
+        return cp.color.equals(color);
     }
 }
