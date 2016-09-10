@@ -11,5 +11,8 @@ public class PointEqualsTest {
         System.out.println("p equals cp = " + p1.equals(cp));
         System.out.println("cp equals p = " + cp.equals(p1));
 
+        ColorPoint cp1 = new ColorPoint(2, 10, Color.RED);
+        System.out.println("cp equals cp1 = " + cp.equals(cp1));
+
     }
 }
